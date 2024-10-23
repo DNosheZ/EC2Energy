@@ -1,0 +1,122 @@
+/* General */
+:root {
+    --main-black: #100710;
+    --main-yellow: #ceff17;
+    --main-green:#78ee2a;
+    
+}
+
+/* Nav-bar */
+.navbar{
+    padding: 1rem;
+    
+}
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-item{
+    color:var(--main-black);
+}
+
+main{
+    background-image:linear-gradient(to bottom, var(--main-black), var(--main-violet2), var(--main-lile), var(--main-black));
+    z-index:4;
+    place-items: center;
+}
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.hero{
+    min-height: 450px;
+    text-align: center;
+    color:var(--main-white);
+    margin-bottom: 60px;
+}
+.hero-imagen-desarrollador{
+    width: 200px;
+    margin:20px;
+    justify-content: center;
+}
+.hero-principal{
+    padding: 3rem;
+}
+h1{
+    font-size: 2.5rem;
+}
+.texto-blanco{
+    color: var(--main-white);
+}
+.hero-principal h2{
+    font-size: 1.5rem;
+}
+.seccion-verde{
+    color:var(--main-white);
+    background-color: var(--main-green);
+}
+.seccion-titulo{
+    font-size: 2rem;
+    text-align: center;
+}
+.seccion-texto{
+    font-size:1.2rem;
+    padding:15px 0;
+    text-align: center;
+}
+
+button{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.button{
+    background-color: var(--main-yellow);
+    border-radius: 40%;
+    border: rgba(var(--main-yellow),0.5);
+    box-shadow: var(--main-black);
+}
+
+/* Carrusel */
+.show-up-caraousel{
+    height: 50%;
+    width:100%;
+    margin:5rem 0;
+    
+}
+.carousel-item img{
+    height:40rem;
+}
+/* About me */
+
+
+/* Servicios */
+.projects-h4{
+    text-align: center;
+}
+
+.cell-div{
+    margin:1.5rem;
+}
+
+
+.columna{
+    margin:1px 0;
+}
+  
+
+
+/* Responsive */
+@media screen and (max-width:767px){
+    .navbar-brand{
+        display:none;
+    }
+}
+
+@media screen and (min-width:700px){
+    .hero-inferior-imagen{
+        max-width: 600px;
+    }
+}
