@@ -3,7 +3,7 @@
     --main-black: #100710;
     --main-yellow: #ceff17;
     --main-green:#78ee2a;
-    
+    --main-orange:#eccf26;
 }
 
 /* Nav-bar */
@@ -80,7 +80,31 @@ button{
     border: rgba(var(--main-yellow),0.5);
     box-shadow: var(--main-black);
 }
+h1{
+    font-size: 65px;
+}
+h2{
+    font-size: 45px;
+}
+p{
+    font-size: 30px;
+}
+.text-justify{
+    text-align: justify;
+}
+.texto-naranja{
+    color:var(--main-orange);
+    margin:1.5rem;
+}
+.btn-primary{
+    background-color:var(--main-orange);
+    border:none;
+}
 
+/* Nav-bar */
+.nav-link{
+    font-size: 1.1rem;
+}
 /* Carrusel */
 .show-up-caraousel{
     height: 50%;
@@ -103,7 +127,7 @@ button{
     margin:1rem;
 }
 .foto-servicio img {
-    max-width: 110%; 
+    max-width: 100%; 
     height: auto; 
 }
 .texto-servicio1, .texto-servicio2{
@@ -114,6 +138,10 @@ button{
     margin:1rem;
 }
 
+/*Contactanos*/
+.contact-us{
+    margin:2rem;
+}
   
 
 
@@ -158,4 +186,5 @@ button{
     .hero-inferior-imagen{
         max-width: 600px;
     }
+    
 }
