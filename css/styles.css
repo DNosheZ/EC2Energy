@@ -118,8 +118,15 @@ p{
     font-size: 1.5rem;
 }
 /* About me */
-
-
+.who-we-are{
+    font-size: 1.3rem;
+}
+.who-we-are img{
+    justify-content: center;
+    text-align: center;
+    height:auto;
+    max-height: 100%;
+}
 /* Servicios sostenibles*/
 .foto-servicio{
     justify-content: center;
