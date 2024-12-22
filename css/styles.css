@@ -5,6 +5,10 @@
     --main-green:#78ee2a;
     --main-orange:#eccf26;
 }
+@font-face {
+    font-family: 'MyGoogleFont';
+    src: url('fonts/Kanit-Bold.ttf'),
+  }
 
 /* Nav-bar */
 .navbar{
@@ -59,7 +63,7 @@ h1{
 }
 .seccion-titulo{
     font-size: 2rem;
-    text-align: center;
+    font-family: 'MyGoogleFont';
 }
 .seccion-texto{
     font-size:1.2rem;
